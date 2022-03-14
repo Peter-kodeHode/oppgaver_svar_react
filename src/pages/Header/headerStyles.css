@@ -1,0 +1,13 @@
+.navBar {
+    background: black;
+    width:100%;
+    height:100px;
+}
+
+.navBar button{
+    height:50px;
+    width:100px;
+    margin: 25px 5px 0px 5px;
+    background-color: blue;
+    border-radius: 50%;
+}
