@@ -1,11 +1,11 @@
 import React from "react";
 import "./ProjectPage/projectPageStyles.css"
+import {ProjectPageOne} from "./ProjectPage/projectPageConsts"
 
 const ProjectPage = () => {
     return (
-    <div className="projectPage">
-        <h1>This is the projects page!</h1>
-    </div>)
+        <ProjectPageOne/>
+    )
 }
 
 export default ProjectPage;

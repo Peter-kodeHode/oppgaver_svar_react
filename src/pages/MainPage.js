@@ -1,12 +1,11 @@
 import React from "react";
 import "./MainPage/mainPageStyles.css"
+import {MainPageOne} from "./MainPage/mainPageConsts"
 
   const MainPage = () => {
     return (
-    <div className="mainPage">
-        <h1>This is the main page!</h1>
-
-    </div>)
+      <MainPageOne/>
+    )
 }
 
 export default MainPage;
