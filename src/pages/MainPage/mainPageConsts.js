@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate } from 'react-router';
+
 
 export const MainPageOne = () => {
     return (
@@ -8,23 +10,30 @@ export const MainPageOne = () => {
 }
 
 export const MainPageForm = () => {
+
+    function Redirect() {
+        let navigate = useNavigate();
+        function handleClick() {
+          navigate(-1)
+        }}
     return(
+        
         <form action="/form-submit" method="post">
             <ul>
                 <li>
-                    <label for="name">Name: </label>
+                    <label htmlFor="name">Name: </label>
                     <input type="text" id="name" name="user_name"></input>
                 </li>
                 <li>
-                    <label for="mail">E-mail: </label>
+                    <label htmlFor="mail">E-mail: </label>
                     <input type="email" id="mail" name="user_mail"></input>
                 </li>
                 <li>
-                    <label for="message">Message: </label>
+                    <label htmlFor="message">Message: </label>
                     <textarea type="text" id="message" name="user_message"></textarea>
                 </li>
                 <li>
-                    <button type="submit">Submit</button>
+                    <button type="submit" onClick={Redirect}>Submit</button>
                 </li>
             </ul>
         </form>
