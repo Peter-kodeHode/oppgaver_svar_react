@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_oppgavesvar/static/css/main.964fdded.css",
+    "main.js": "/react_oppgavesvar/static/js/main.64a2e68a.js",
+    "static/js/787.0022682d.chunk.js": "/react_oppgavesvar/static/js/787.0022682d.chunk.js",
+    "index.html": "/react_oppgavesvar/index.html",
+    "static/media/Vector.svg": "/react_oppgavesvar/static/media/Vector.6649c40cf868f755cc8ba891e4e2f5a5.svg",
+    "main.964fdded.css.map": "/react_oppgavesvar/static/css/main.964fdded.css.map",
+    "main.64a2e68a.js.map": "/react_oppgavesvar/static/js/main.64a2e68a.js.map",
+    "787.0022682d.chunk.js.map": "/react_oppgavesvar/static/js/787.0022682d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.64a2e68a.js"
+  ]
+}
