@@ -1,22 +1,26 @@
 import React from "react";
+import {
+    AboutText1,
+    AboutText2
+} from "./aboutUsStyles"
 
 
 export const AboutUsOne = () => {
     return(
-    <div className="aboutUsOne">
+    <AboutText1>
         <p>
             Hellu it me
         </p>
-    </div>
+    </AboutText1>
     );
 };
 
 export const AboutUsTwo = () => {
     return(
-        <div className="aboutUsTwo">
+        <AboutText2>
             <p>
                 Woop woop
             </p>
-        </div>
+        </AboutText2>
     );
 };

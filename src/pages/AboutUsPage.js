@@ -1,5 +1,4 @@
 import React from "react";
-import "./AboutUsPage/aboutUsStyles.css"
 import { 
     AboutUsOne, 
     AboutUsTwo }
