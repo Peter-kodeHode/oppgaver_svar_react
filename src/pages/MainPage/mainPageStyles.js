@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const MainPageDiv = styled.div`
+    max-width:100%;
+    max-height:100wh;
+`
+
  export const CoolH1  = styled.h1`
  background-color: ${props => props.primary ? "palevioletred" : "lightblue"};
  color: ${props => props.primary ? "white" : "black"};

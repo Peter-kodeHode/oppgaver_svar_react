@@ -1,17 +1,19 @@
 import React from "react";
-import { useNavigate } from 'react-router';
-import styled from "styled-components"
-import {CoolH1, LessCoolH1} from "./mainPageStyles"
+import {CoolH1,
+     LessCoolH1,
+     MainPageDiv
+} from "./mainPageStyles"
 
 
 export const MainPageOne = () => {
 
     return (
-    <div className="mainPage">
+    <MainPageDiv>
         <LessCoolH1>This is the main page!</LessCoolH1>
         <CoolH1>ello I am styled-component😎</CoolH1>
         <CoolH1 primary>I am props styled component yo</CoolH1>
-    </div>)
+    </MainPageDiv>
+    )
 }
 
 // export const MainPageForm = () => {
