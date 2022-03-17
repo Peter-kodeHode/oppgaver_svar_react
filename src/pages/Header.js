@@ -3,8 +3,14 @@ import {
   Link,
   useNavigate
 } 
-  from "react-router-dom";
-import "./Header/headerStyles.css"
+from "react-router-dom";
+import {
+  NavBar,
+  NavButtons,
+  Arrow,
+
+} from "./Header/headerStyles"
+// import "./Header/headerStyles.css"
 import arrow from "../images/Header/Vector.svg"
 
   const Header = () => {
@@ -18,13 +24,14 @@ import arrow from "../images/Header/Vector.svg"
       }
 
     return (
-    <div className="navBar">
-      <img className="arrowBack" src={arrow} onClick={goBack}/>
-        <Link to="/"><button>Main Page</button></Link>
-        <Link to="/aboutus"><button>About Us</button></Link>
-        <Link to="/projects"><button>Projects</button></Link>
-      <img className="arrowNext" src={arrow} onClick={goNext}/>
-    </div>)
+    <NavBar>
+      <Arrow src={arrow} onClick={goBack}/>
+        <Link to="/"><NavButtons>Main Page</NavButtons></Link>
+        <Link to="/aboutus"><NavButtons>About Us</NavButtons></Link>
+        <Link to="/projects"><NavButtons>Projects</NavButtons></Link>
+      <Arrow right src={arrow} onClick={goNext}/>
+    </NavBar>
+    )
 };
 
 export default Header;
