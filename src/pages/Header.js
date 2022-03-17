@@ -26,9 +26,15 @@ import arrow from "../images/Header/Vector.svg"
     return (
     <NavBar>
       <Arrow src={arrow} onClick={goBack}/>
-        <Link to="/"><NavButtons>Main Page</NavButtons></Link>
-        <Link to="/aboutus"><NavButtons>About Us</NavButtons></Link>
-        <Link to="/projects"><NavButtons>Projects</NavButtons></Link>
+        <Link to="/">
+          <NavButtons>Main Page</NavButtons>
+        </Link>
+        <Link to="/aboutus">
+          <NavButtons>About Us</NavButtons>
+        </Link>
+        <Link to="/projects">
+          <NavButtons>Projects</NavButtons>
+        </Link>
       <Arrow right src={arrow} onClick={goNext}/>
     </NavBar>
     )
