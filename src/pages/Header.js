@@ -20,9 +20,9 @@ import arrow from "../images/Header/Vector.svg"
     return (
     <div className="navBar">
       <img className="arrowBack" src={arrow} onClick={goBack}/>
-    <Link to="/"><button>Main Page</button></Link>
-    <Link to="/aboutus"><button>About Us</button></Link>
-    <Link to="/projects"><button>Projects</button></Link>
+        <Link to="/"><button>Main Page</button></Link>
+        <Link to="/aboutus"><button>About Us</button></Link>
+        <Link to="/projects"><button>Projects</button></Link>
       <img className="arrowNext" src={arrow} onClick={goNext}/>
     </div>)
 };
