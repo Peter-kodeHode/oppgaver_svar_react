@@ -2,7 +2,8 @@ import React from "react";
 import {CoolH1,
      LessCoolH1,
      MainPageDiv
-} from "./mainPageStyles"
+} from "./mainPageStyles";
+
 
 
 export const MainPageOne = () => {
