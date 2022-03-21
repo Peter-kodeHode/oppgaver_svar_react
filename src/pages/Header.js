@@ -10,7 +10,6 @@ import {
   Arrow,
 
 } from "./Header/headerStyles"
-// import "./Header/headerStyles.css"
 import arrow from "../images/Header/Vector.svg"
 
   const Header = () => {

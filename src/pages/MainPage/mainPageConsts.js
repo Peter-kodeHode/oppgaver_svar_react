@@ -6,16 +6,18 @@ import {CoolH1,
 
 
 
-export const MainPageOne = () => {
+const MainPageOne = () => {
 
     return (
+        
     <MainPageDiv>
-        <LessCoolH1>This is the main page!</LessCoolH1>
-        <CoolH1>ello I am styled-component😎</CoolH1>
-        <CoolH1 primary>I am props styled component yo</CoolH1>
-    </MainPageDiv>
-    )
-}
+            <LessCoolH1>This is the main page!</LessCoolH1>
+            <CoolH1>ello I am styled-component😎</CoolH1>
+            <CoolH1 primary>I am props styled component yo</CoolH1>
+        </MainPageDiv>
+
+    );
+};
 
 // export const MainPageForm = () => {
 
@@ -46,3 +48,4 @@ export const MainPageOne = () => {
 //             </ul>
 //         </form>
 //     )
+export default MainPageOne;

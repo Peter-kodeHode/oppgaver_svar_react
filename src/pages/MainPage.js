@@ -1,7 +1,6 @@
 import React from "react";
-import {
-  MainPageOne, 
-  MainPageForm} 
+import 
+  MainPageOne
   from "./MainPage/mainPageConsts"
 
   const MainPage = () => {
