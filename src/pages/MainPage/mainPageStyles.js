@@ -21,3 +21,6 @@ export const LessCoolH1 = styled.h1`
     font-size:larger;
     color: green;
 `
+export const CoolH1Green = styled(CoolH1)`
+color:green;
+`

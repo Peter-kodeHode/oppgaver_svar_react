@@ -1,7 +1,8 @@
 import React from "react";
 import {CoolH1,
      LessCoolH1,
-     MainPageDiv
+     MainPageDiv,
+     CoolH1Green,
 } from "./mainPageStyles";
 
 
@@ -14,6 +15,7 @@ const MainPageOne = () => {
             <LessCoolH1>This is the main page!</LessCoolH1>
             <CoolH1>ello I am styled-component😎</CoolH1>
             <CoolH1 primary>I am props styled component yo</CoolH1>
+            <CoolH1Green>I am extended styled component and green</CoolH1Green>
         </MainPageDiv>
 
     );

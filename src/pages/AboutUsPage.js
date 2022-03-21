@@ -3,14 +3,18 @@ import {
     AboutUsOne, 
     AboutUsTwo }
  from "./AboutUsPage/aboutUsConsts";
+ import AnimatedPage from "./AnimatedPage";
 
 
  const AboutUsPage = () => {
      return (
+    <AnimatedPage>
      <div>
          <AboutUsOne></AboutUsOne>
          <AboutUsTwo></AboutUsTwo>
-     </div>)
+     </div>
+     </AnimatedPage>
+     )
  };
 
  export default AboutUsPage;
