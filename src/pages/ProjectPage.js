@@ -1,6 +1,6 @@
 import React from "react";
 import {ProjectPageOne} from "./ProjectPage/projectPageConsts"
-import AnimatedPage from "./AnimatedPage";
+import AnimatedPage from "./AllPages/AnimatedPage"
 
 const ProjectPage = () => {
     return (

@@ -3,7 +3,8 @@ import {
     AboutUsOne, 
     AboutUsTwo }
  from "./AboutUsPage/aboutUsConsts";
- import AnimatedPage from "./AnimatedPage";
+ import AnimatedPage from "./AllPages/AnimatedPage";
+
 
 
  const AboutUsPage = () => {
