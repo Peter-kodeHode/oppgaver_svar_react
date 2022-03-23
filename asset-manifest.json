@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/oppgaver_svar_react/static/css/main.5d8aedd2.css",
-    "main.js": "/oppgaver_svar_react/static/js/main.59cc3765.js",
+    "main.js": "/oppgaver_svar_react/static/js/main.c16c556c.js",
     "static/js/787.0022682d.chunk.js": "/oppgaver_svar_react/static/js/787.0022682d.chunk.js",
     "index.html": "/oppgaver_svar_react/index.html",
     "static/media/Vector.svg": "/oppgaver_svar_react/static/media/Vector.6649c40cf868f755cc8ba891e4e2f5a5.svg",
     "main.5d8aedd2.css.map": "/oppgaver_svar_react/static/css/main.5d8aedd2.css.map",
-    "main.59cc3765.js.map": "/oppgaver_svar_react/static/js/main.59cc3765.js.map",
+    "main.c16c556c.js.map": "/oppgaver_svar_react/static/js/main.c16c556c.js.map",
     "787.0022682d.chunk.js.map": "/oppgaver_svar_react/static/js/787.0022682d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8aedd2.css",
-    "static/js/main.59cc3765.js"
+    "static/js/main.c16c556c.js"
   ]
 }
