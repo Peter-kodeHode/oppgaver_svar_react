@@ -20,10 +20,13 @@ function App() {
     
       <Header/>
       <AnimatePresence exitBeforeEnter>
-      <Routes key={location.pathname} location={location}>
+      <Routes key={location.pathname} 
+      location={location}>
+
         <Route path="/" element={<Main/>}/>
         <Route path="aboutus" element={<AboutUs/>}/>
         <Route path="projects" element={<Project/>}/>
+        
       </Routes> 
       </AnimatePresence>
       <Footer/>

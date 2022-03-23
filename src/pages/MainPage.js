@@ -2,7 +2,7 @@ import React from "react";
 import 
   MainPageOne
   from "./MainPage/mainPageConsts";
-import AnimatedPage from "./AnimatedPage";
+import AnimatedPage from "./AllPages/AnimatedPage";
 
 
 
