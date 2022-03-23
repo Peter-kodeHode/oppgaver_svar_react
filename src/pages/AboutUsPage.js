@@ -6,6 +6,7 @@ import {
  import AnimatedPage from "./AllPages/AnimatedPage";
 
 
+
  const AboutUsPage = () => {
      return (
     <AnimatedPage>
